@@ -8,7 +8,7 @@ const handleNav = () => {
 }
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px]  text-white  mx-auto px-4'>
-        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Hello bacs</h1>
+        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Erza.Com</h1>
 
             <ul className='hidden md:flex'>
 
@@ -24,8 +24,8 @@ const handleNav = () => {
               
             </div>
 
-            <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full bordered border-gray-900x bg-[#bcc1bc] ease-in-out duration-300 text-black' : 'fixed left-[-100%]'}>
-            <h1 className='w-full text-3xl font-bold text-[#101110] m-4'>Hello bacs</h1> 
+            <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full bordered border-gray-900x bg-[#bcc1bc] ease-in-out duration-300 text-black' : 'fixed left-[-100%] xl-hidden'}>
+            <h1 className='w-full text-3xl font-bold text-[#101110] m-4'>Erza.com</h1> 
 
                 <ul className='uppercase pt-4'>    
                     <li className='p-4 '>Home</li>
