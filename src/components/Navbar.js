@@ -20,14 +20,14 @@ const handleNav = () => {
             </ul>
             
             <div onClick={handleNav} className='block md:hidden'> 
-                {!nav ?  <AiOutlineClose size={20}/> :<AiOutlineMenu size ={20}/>}
+                {nav?<AiOutlineClose size={20}/>:<AiOutlineMenu size ={20}/>}
               
             </div>
 
-            <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full bordered border-gray-900x bg-[#bcc1bc] ease-in-out duration-300 text-black' : 'fixed left-[-100%]'}>
+            <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full bordered border-gray-900x bg-[#bcc1bc] ease-in-out duration-300 text-black' : 'fixed left-[-100%] '}>
             <h1 className='w-full text-3xl font-bold text-[#101110] m-4'>Erza.com</h1> 
 
-                <ul className='uppercase pt-4'>    
+                <ul className=' p-4 uppercase'>    
                     <li className='p-4 '>Home</li>
                     <li className='p-4 border border-x-0 gray-600'>Company</li>
                     <li className='p-4 border border-x-0 gray-600'>Recources</li>
